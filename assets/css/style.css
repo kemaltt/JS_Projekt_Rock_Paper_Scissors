@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Press+Start+2P&display=swap');
+
+/* 
+font-family: 'Amatic SC', cursive;
+font-family: 'Press Start 2P',cursive;
+*/
+
+
+/* 
+Farbe :#1F1F27
+*/
+
+
+/* General Styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* font-family: 'Amatic SC', cursive; */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2vh;
+}
+
+h4 {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+section {
+    color: #fff;
+    background-color: #1F1F27;
+    text-align: center;
+    padding: 7vh 32%;
+    height: 100vh;
+}
+
+i {
+    color: #fff;
+}
+
+.round {
+    border: #fff solid 1px;
+    padding: 5px;
+    background-color: #4f4f5b;
+    border-radius: 10px;
+    height: 200px;
+}
+
+form {
+    /* text-align: left; */
+    font-size: 3rem;
+}
+
+.input_radio {
+    padding: 2vh 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#input_radio {
+    /* display: none; */
+}
+
+#output_counter {
+    display: none;
+    padding: 5vh 0;
+}
+
+#output_counter p {
+    font-size: 5rem;
+}
+
+.score {
+    border: #fff solid 1px;
+    padding: 20px;
+    margin-top: 3vh;
+    font-size: 3rem;
+    position: relative;
+    background-color: #4f4f5b;
+    border-radius: 10px;
+}
+
+.la-user {
+    position: absolute;
+    left: 20%;
+    font-size: 5rem;
+    color: yellowgreen;
+}
+
+.la-robot {
+    position: absolute;
+    right: 20%;
+    font-size: 5rem;
+    color: tomato;
+}
+
+.play {
+    border: #fff solid 1px;
+    margin-top: 3vh;
+    padding: 20px;
+    background-color: #4f4f5b;
+    border-radius: 10px;
+}
+
+#overall_result {
+    font-size: 5rem;
+}
+
+#user_choice {
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+#comp_choice {
+    color: tomato;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.output_result {
+    height: 80px;
+}
+
+#result {
+    display: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.icon div {
+    border: #fff solid 2px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 1vh;
+}
+
+.icon div:hover {
+    border: gold solid 2px;
+}
+
+.icon div:active {
+    border: green solid 2px;
+}
+
+.icon div i:active {
+    color: green;
+    font-size: 4rem;
+}
+
+.icon div i {
+    font-size: 5rem;
+}
+
+.output_result p:nth-of-type(1) {
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+.output_result p:nth-of-type(2) {
+    font-size: 2rem;
+}
+
+.last {
+    font-size: 1rem;
+    margin: 2vh 0;
+}
+
+a {
+    font-size: 2rem;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:active {
+    color: tomato;
+}
