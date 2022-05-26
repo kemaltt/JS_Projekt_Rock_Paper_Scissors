@@ -209,9 +209,9 @@ a:active {
 
 /* media query----------------- */
 
-@media only screen and (min-width: 400px) and (max-width: 600px) {
+@media only screen and (min-width: 300px) and (max-width: 600px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin: 3vh;
     }
     h2,
@@ -221,8 +221,27 @@ a:active {
     section {
         padding: 2vh 10%;
     }
+    .input_radio {
+        padding: 2vh 10%;
+    }
     .round_display {
         height: 150px;
+    }
+    .la-user {
+        position: absolute;
+        left: 10%;
+        font-size: 4rem;
+    }
+    .la-robot {
+        position: absolute;
+        right: 10%;
+        font-size: 4rem;
+    }
+    .play {
+        padding: 10px;
+    }
+    #result {
+        font-size: 1.5rem
     }
     .icon div i {
         font-size: 3rem;
