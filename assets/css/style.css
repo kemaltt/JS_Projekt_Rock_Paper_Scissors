@@ -36,8 +36,9 @@ h2 {
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 5px;
+    color: gold;
 }
 
 section {
@@ -52,7 +53,7 @@ i {
     color: #fff;
 }
 
-.round {
+.round_display {
     border: #fff solid 1px;
     padding: 5px;
     background-color: #4f4f5b;
@@ -72,17 +73,14 @@ form {
     align-items: center;
 }
 
-#input_radio {
-    /* display: none; */
-}
-
-#output_counter {
+#counter_display {
     display: none;
-    padding: 5vh 0;
+    padding: 4vh 0;
 }
 
-#output_counter p {
+#counter_display p {
     font-size: 5rem;
+    padding: 2vh 0;
 }
 
 .score {
@@ -121,16 +119,21 @@ form {
     font-size: 5rem;
 }
 
+#overall_display {
+    padding: 7vh 0;
+    display: none;
+}
+
 #user_choice {
     color: yellowgreen;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 #comp_choice {
     color: tomato;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 4rem;
 }
 
 .output_result {
@@ -182,17 +185,24 @@ form {
     font-size: 2rem;
 }
 
-.last {
+.your_move {
     font-size: 1rem;
     margin: 2vh 0;
 }
 
 a {
-    font-size: 2rem;
-    color: greenyellow;
+    font-size: 1.5rem;
+    color: #fff;
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: #fff solid 1px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    background-color: green;
+    font-weight: bold;
 }
 
 a:active {
+    background-color: yellowgreen;
     color: tomato;
 }

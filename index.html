@@ -14,15 +14,16 @@
 <body>
     <section>
         <h1>Rock Paper Scissors</h1>
-        <div class="round">
-            <h4>how many rounds?</h4>
-            <form action="form">
-                <div id="output_counter">
-                    <p><span id="counter"></span> / <span id="round"></span></p>
-                </div>
-                <div id="input_radio">
-                    <div class="input_radio">
+        <div class="round_display">
 
+            <form action="form">
+                <div id="counter_display">
+                    <h4>Round</h4>
+                    <p><span id="output_counter"></span> / <span id="output_round"></span></p>
+                </div>
+                <div id="radio_display">
+                    <h4>How many rounds?</h4>
+                    <div class="input_radio">
                         <div>
                             <input type="radio" name="radio" id="radio_5" checked value="5">
                             <label for="radio_5">5</label>
@@ -49,15 +50,15 @@
         <div class="score">
             <i class="lar la-user"></i>
             <i class="las la-robot"></i>
-            <span id="user_score"></span> :
-            <span id="computer_score"></span>
+            <span id="result_user_score"></span> :
+            <span id="result_computer_score"></span>
 
         </div>
         <div class="play">
-            <div id="output_none">
+            <div id="overall_display">
                 <p id="overall_result"></p>
             </div>
-            <div id="output_block">
+            <div id="play_display">
                 <div class="output_result">
                     <h2 id="lets_play">Let`s play</h2>
                     <p id="result">User :
@@ -65,16 +66,17 @@
                         <i id="comp_choice" class="lar la-hand-rock"></i>
                     </p>
 
-                    <p id="winner"></p>
+                    <p id="output_winner"></p>
                 </div>
                 <div class="icon">
                     <div class="btn" id="rock"><i class="lar la-hand-rock"></i></div>
                     <div class="btn" id="paper"><i class="lar la-hand-paper"></i></div>
                     <div class="btn" id="scissors"><i class="lar la-hand-scissors"></i></div>
                 </div>
+                <p class="your_move">MAKE YOUR MOVE</p>
             </div>
 
-            <p class="last">MAKE YOUR MOVE</p>
+
             <a href="">restart</a>
         </div>
     </section>
