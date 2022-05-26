@@ -246,4 +246,7 @@ a:active {
     .icon div i {
         font-size: 3rem;
     }
+    #overall_result {
+        font-size: 3.5rem;
+    }
 }
